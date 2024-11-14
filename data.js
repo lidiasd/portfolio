@@ -7,7 +7,7 @@ export const bio = [
 export const skills = [
   {
     title: "Languages",
-    skillName: "Python, C++, Java, R",
+    skillName: "Python, C++, Java, Rust",
     color: "1",
     percentage: "90",
   },
@@ -24,10 +24,10 @@ export const skills = [
     percentage: "80",
   },
   {
-    title: "Version Control",
-    skillName: "GitHub, JIRA, Bitbucket",
+    title: "Databases",
+    skillName: "MongoDB, SQL, PostgreSQL, MySQL, NoSQL",
     color: "7",
-    percentage: "70",
+    percentage: "90",
   },
   {
     title: "Tools",
@@ -60,7 +60,7 @@ export const projects = {
       image: "images/nlp.jpeg",
       summary:
         "Analyse des opinions mondiales à partir des tweets en utilisant des outils de traitement du langage naturel comme TextBlob, VADER, et NLTK. Visualisations avec Matplotlib, Seaborn, et Plotly.",
-      preview: "https://github.com/your-repo-link", // Remplacez avec le lien approprié
+      preview: "https://github.com/your-repo-link",  
       techStack: ["TextBlob", "VADER", "NLTK", "Matplotlib", "Seaborn", "Plotly"],
     },
     {
@@ -68,7 +68,7 @@ export const projects = {
       image: "images/ast.jpg",
       summary:
         "Analyse des séries temporelles pour détecter les périodes d'activation des appareils avec des algorithmes de classification tels que Random Forest, XGBoost, KNN, et CNN.",
-      preview: "https://github.com/your-repo-link", // Remplacez avec le lien approprié
+      preview: "https://github.com/your-repo-link",  
       techStack: ["Random Forest", "XGBoost", "KNN", "CNN", "Python"],
     },
     {
@@ -76,7 +76,7 @@ export const projects = {
       image: "images/mrsp.png",
       summary:
         "Recherche sur la modélisation des relations spatiales entre les objets avec K-Means, Random Forest, CNN, et KNN pour des applications avancées de vision par ordinateur.",
-      preview: "https://github.com/your-repo-link", // Remplacez avec le lien approprié
+      preview: "https://github.com/your-repo-link", 
       techStack: ["K-Means", "Random Forest", "CNN", "KNN", "Machine Learning"],
     },
     {
@@ -84,7 +84,7 @@ export const projects = {
       image: "images/emdt.jpeg",
       summary:
         "Développement d'un modèle de détection des émotions à partir d'images en utilisant des techniques avancées d'apprentissage automatique. Intégration de ResNet pour l'extraction des caractéristiques, landmarks pour les expressions faciales, et un MLP pour la classification des émotions.",
-      preview: "https://github.com/your-repo-link", // Remplacez avec le lien approprié
+      preview: "https://github.com/your-repo-link", 
       techStack: ["ResNet", "Landmarks", "MLP", "Python", "Deep Learning"],
     },    
     {
@@ -92,12 +92,12 @@ export const projects = {
       image: "images/java.jpeg",
       summary:
         "Création d'une application desktop avec une interface utilisateur intuitive pour la gestion des tâches. Implémentation des fonctionnalités CRUD, navigation fluide, et gestion des données avec JavaFX et Swing.",
-      preview: "https://github.com/your-repo-link", // Remplacez avec le lien approprié
+      preview: "https://github.com/your-repo-link",  
       techStack: ["Java", "JavaFX", "Swing", "MySQL"],
     }
     
   ],
-  androidProjects: [{
+   CVP: [{
     projectName: "YOLOv8 pour Vision Par Ordinateur",
     image: "images/uyolov8.jpeg",
     summary:
@@ -110,7 +110,7 @@ export const projects = {
     image: "images/smm.png",
     summary:
       "Projet de segmentation des images médicales avec le modèle Unet. Analyse des données du dataset Brats2021 pour améliorer la précision de la segmentation.",
-    preview: "https://github.com/your-repo-link", // Remplacez avec le lien approprié
+    preview: "https://github.com/your-repo-link",   
     techStack: ["Unet", "Deep Learning", "Medical Imaging", "Python"],
   },
 ],
@@ -177,20 +177,20 @@ export const education = [
 ];
 
 export const footer = [
-  //   {
-  //     label: "Dev Profiles",
-  //     data: [
-  //       {
-  //         text: "Stackoverflow",
-  //         link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-  //       },
-  //       {
-  //         text: "GitHub",
-  //         link: "https://github.com/vinaysomawat",
-  //       },
+     {
+       label: "Dev Profiles",
+      data: [
+         {
+           text: "Stackoverflow",
+           link: "https://stackoverflow.com/users/28305952/lidia-sadi",
+         },
+         {
+           text: "GitHub",
+           link: "https://github.com/lidiasd",
+         },
   //       {
   //         text: "LeetCode",
-  //         link: "https://leetcode.com/somawatvinay/",
+  //         link: "",
   //       },
   //     ],
   //   },
@@ -201,19 +201,17 @@ export const footer = [
   //         text: "Enable Dark/Light Mode",
   //         func: "enableDarkMode()",
   //       },
-  //       {
-  //         text: "Print this page",
-  //         func: "window.print()",
-  //       },
-  //       {
-  //         text: "Clone this page",
-  //         link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-  //       },
-  //     ],
-  //   },
+         {
+           text: "Print this page",
+           func: "window.print()",
+         },
+         
+       ],
+     },
   {
-    label: "",
+    label: "Contact",
     data: [
+      
       {
         text: "E-mail : didalydiasadi@gmail.com",
         link: "mailto:didalydiasadi@gmail.com",
@@ -225,11 +223,7 @@ export const footer = [
       {
         text: "LinkedIn",
         link: "https://www.linkedin.com/in/lidia-sadi-562897236/",
-      },
-      {
-        text: "Github",
-        link: "https://github.com/lidiasd",
-      },
+      }
     ],
     
     

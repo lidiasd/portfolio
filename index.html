@@ -80,18 +80,18 @@
                </div>
             </section>
             <!--------------------[END] Skills------------------------------>
-            <section class="colorlib-profile" data-section="profile-card">
+            <section class="colorlib-profile" data-section="profile-card" >
                <div class="colorlib-narrow-content">
                   <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                     <!--<div class="profile-cards">
-                        <div class="col">
-                           <div class="stack-card" user-id="8461233"></div>
+                     <div class="profile-cards">
+                        <div class="col" >
+                           <div class="stack-card" user-id="28305952"></div>
                         </div>
                         <div class="col">
-                           <div class="github-card" username="vinaysomawat"></div>
+                           <div class="github-card" username="lidiasd"></div>
                         </div>
                      </div>
-                  </div>-->
+                  </div>
                </div>
             </section>
             <!--------------------[START] Projects-------------------------->
@@ -126,7 +126,7 @@
                            </p>
                            <i class="fa fa-chevron-down"></i>
                         </div>
-                        <ul id="android-projects" class="submenu">
+                        <ul id="c-v" class="submenu">
                         </ul>
                      </li>
                      <li>
@@ -201,40 +201,18 @@
                      </div>
                      <p>Feel free to email me at didalydiasadi@gmail.com for tech discussions, business opportunities, or just to say hello—I’d love to hear from you!
                      </p>
+                     
                   </div>
+                  
                </div>
             </section>
             <!--------------------[END] Contact----------------------------->
             <!--------------------[START] Footer---------------------------->
             <section class="colorlib-footer no-print" data-section="footer">
                <div class="colorlib-narrow-content">
+                  
                   <footer class="footer" id="footer">
-                     <button id="theme-toggle">🌚 Mode Sombre</button>
-
-                     <script>
-                         document.addEventListener('DOMContentLoaded', () => {
-                             const themeToggleButton = document.getElementById('theme-toggle');
-                             const body = document.body;
-                 
-                             // Check if dark mode was previously enabled
-                             const darkMode = localStorage.getItem('dark-mode') === 'enabled';
-                 
-                             if (darkMode) {
-                                 body.classList.add('dark-mode');
-                                 themeToggleButton.textContent = '🌞 Mode Clair';
-                             }
-                 
-                             themeToggleButton.addEventListener('click', () => {
-                                 body.classList.toggle('dark-mode');
-                                 const isDarkMode = body.classList.contains('dark-mode');
-                 
-                                 themeToggleButton.textContent = isDarkMode ? '🌞 Mode Clair' : '🌚 Mode Sombre';
-                 
-                                 // Save preference to localStorage
-                                 localStorage.setItem('dark-mode', isDarkMode ? 'enabled' : 'disabled');
-                             });
-                         });
-                     </script>
+                     <button id="theme-toggle">🌚 Mode Sombre</button>   
                   </footer>
                </div>
             </section>
@@ -257,7 +235,30 @@
    <script src="js/jquery.countTo.js"></script>
    <!-- MAIN JS -->
    <script src="js/main.js"></script>
-   
+   <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const themeToggleButton = document.getElementById('theme-toggle');
+          const body = document.body;
+
+          // Check if dark mode was previously enabled
+          const darkMode = localStorage.getItem('dark-mode') === 'enabled';
+
+          if (darkMode) {
+              body.classList.add('dark-mode');
+              themeToggleButton.textContent = '🌞 Mode Clair';
+          }
+
+          themeToggleButton.addEventListener('click', () => {
+              body.classList.toggle('dark-mode');
+              const isDarkMode = body.classList.contains('dark-mode');
+
+              themeToggleButton.textContent = isDarkMode ? '🌞 Mode Clair' : '🌚 Mode Sombre';
+
+              // Save preference to localStorage
+              localStorage.setItem('dark-mode', isDarkMode ? 'enabled' : 'disabled');
+          });
+      });
+  </script>
 </body>
 
 </html>
