@@ -149,4 +149,10 @@
         <p>&copy; 2024 My Passion Blog. Built with ❤️. <a href="index.html">Back to Home</a></p>
     </footer>
 </body>
+<script>
+    if (window.location.pathname === '/passion.html') {
+        window.history.pushState({}, '', '/passion');
+    }
+</script>
+
 </html>
