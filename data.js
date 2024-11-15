@@ -1,7 +1,7 @@
 export const bio = [
-  "Bonjour ! Je suis Lidia SADI, une ingénieure en intelligence artificielle et data passionnée par la résolution de problèmes complexes à l'aide des données.",
-  "Avec une solide expertise en IA et data science, je suis motivée par la création de solutions innovantes qui ont un fort impact.",
-  "Merci de visiter mon profil !",
+ "Hello! I am Lidia SADI, an artificial intelligence and data engineer passionate about solving complex problems using data."  ,
+"With solid expertise in AI and data science, I am driven by the creation of innovative solutions that have a significant impact."  ,
+"Thank you for visiting my profile!"
 ];
 
 export const skills = [
@@ -56,123 +56,144 @@ export const projects = {
   ],
   softwareProjects: [
     {
-      projectName: "Analyse de Sentiments sur la Crise en Syrie et en Turquie",
+      projectName: "Sentiment Analysis on the Crisis in Syria and Turkey",
       image: "images/nlp.jpeg",
       summary:
-        "Analyse des opinions mondiales à partir des tweets en utilisant des outils de traitement du langage naturel comme TextBlob, VADER, et NLTK. Visualisations avec Matplotlib, Seaborn, et Plotly.",
+        "Analyzing global opinions from tweets using natural language processing tools like TextBlob, VADER, and NLTK. Visualizations created with Matplotlib, Seaborn, and Plotly.",
       preview: "https://github.com/your-repo-link",  
       techStack: ["TextBlob", "VADER", "NLTK", "Matplotlib", "Seaborn", "Plotly"],
+      
     },
     {
-      projectName: "Classification des Séries Temporelles d'Électricité",
+      projectName: "Electricity Time Series Classification",
       image: "images/ast.jpg",
       summary:
-        "Analyse des séries temporelles pour détecter les périodes d'activation des appareils avec des algorithmes de classification tels que Random Forest, XGBoost, KNN, et CNN.",
+        "Time series analysis to detect device activation periods using classification algorithms such as Random Forest, XGBoost, KNN, and CNN.",
       preview: "https://github.com/your-repo-link",  
       techStack: ["Random Forest", "XGBoost", "KNN", "CNN", "Python"],
+
     },
     {
-      projectName: "Modélisation des Relations Spatiales entre Objets",
+      projectName: "Modeling Spatial Relationships between Objects",
       image: "images/mrsp.png",
       summary:
-        "Recherche sur la modélisation des relations spatiales entre les objets avec K-Means, Random Forest, CNN, et KNN pour des applications avancées de vision par ordinateur.",
+        "Research on modeling spatial relationships between objects using K-Means, Random Forest, CNN, and KNN for advanced computer vision applications.",
       preview: "https://github.com/your-repo-link", 
       techStack: ["K-Means", "Random Forest", "CNN", "KNN", "Machine Learning"],
+
     },
     {
-      projectName: "Projet d'Interaction Homme-Machine",
+      projectName: "Human-Machine Interaction Project",
       image: "images/emdt.jpeg",
       summary:
-        "Développement d'un modèle de détection des émotions à partir d'images en utilisant des techniques avancées d'apprentissage automatique. Intégration de ResNet pour l'extraction des caractéristiques, landmarks pour les expressions faciales, et un MLP pour la classification des émotions.",
+        "Development of an emotion detection model from images using advanced machine learning techniques. Integration of ResNet for feature extraction, landmarks for facial expressions, and an MLP for emotion classification.",
       preview: "https://github.com/your-repo-link", 
       techStack: ["ResNet", "Landmarks", "MLP", "Python", "Deep Learning"],
-    },    
+
+    },  
     {
-      projectName: "Développement d'une Application Desktop en Java",
+      projectName: "Formal Development for Fighter Jet Landing",
+      image: "images/vdm.png",
+      summary:
+        "Led a crucial project during my bachelor's degree focused on formal development for fighter aircraft landing. Utilized formal methods such as the B method and VDM++ specification language to ensure the correctness and safety of the embedded software.",
+      preview: "https://github.com/your-repo-link",   
+      techStack: ["B Method", "VDM++", "Formal Methods", "Safety-Critical Systems"],
+
+    },
+    {
+      projectName: "Development of a Desktop Application in Java",
       image: "images/java.jpeg",
       summary:
-        "Création d'une application desktop avec une interface utilisateur intuitive pour la gestion des tâches. Implémentation des fonctionnalités CRUD, navigation fluide, et gestion des données avec JavaFX et Swing.",
+        "Creation of a desktop application with an intuitive user interface for task management. Implementation of CRUD functionalities, smooth navigation, and data handling using JavaFX and Swing.",
       preview: "https://github.com/your-repo-link",  
       techStack: ["Java", "JavaFX", "Swing", "MySQL"],
+
     }
     
   ],
    CVP: [{
-    projectName: "YOLOv8 pour Vision Par Ordinateur",
+    projectName: "YOLOv8 for Computer Vision",
     image: "images/uyolov8.jpeg",
     summary:
-      "Développement de modèles pour le floutage de visages, la détection des EPI et la segmentation d'objets.",
+      "Development of models for face blurring, PPE detection, and object segmentation.",
     preview: "https://github.com/ultralytics/yolov8",
     techStack: ["YOLOv8", "Python", "Deep Learning"],
-  },
-  {
-    projectName: "Segmentation Multimodale des Images Médicales",
-    image: "images/smm.png",
-    summary:
-      "Projet de segmentation des images médicales avec le modèle Unet. Analyse des données du dataset Brats2021 pour améliorer la précision de la segmentation.",
-    preview: "https://github.com/your-repo-link",   
-    techStack: ["Unet", "Deep Learning", "Medical Imaging", "Python"],
-  },
+
+    },
+    {
+      projectName: "Multimodal Medical Image Segmentation",
+      image: "images/smm.png",
+      summary:
+        "Medical image segmentation project using the Unet model. Data analysis from the Brats2021 dataset to improve segmentation accuracy.",
+      preview: "https://github.com/your-repo-link",   
+      techStack: ["Unet", "Deep Learning", "Medical Imaging", "Python"],
+
+    },
 ],
   freelanceProjects: [ {
-    projectName: "Rapports de Business Intelligence",
+    projectName: "Business Intelligence Reports",
     image: "images/qsp.png",
     summary:
-      "Conception de rapports interactifs avec Qlik Sense, extraction et transformation des données pour une visualisation exploitable.",
+      "Design of interactive reports with Qlik Sense, including data extraction and transformation for actionable visualizations.",
     preview: "https://www.qlik.com/",
     techStack: ["Qlik Sense", "Data Transformation", "BI"],
+
   },],
 };
 
 export const experience = [
   {
     title: "TimeLapseGo' Boulogne Billancourt",
-    duration: "Septembre 2023 - Septembre 2024",
-    subtitle: "Apprentie Ingénieure en Intelligence Artificielle et Data",
-    details: [
-      "Développement de modèles YOLOv8 pour le floutage de visages, la détection d'EPI et la segmentation d'objets.",
-      "Automatisation et optimisation des processus via des scripts Python.",
-      "Création et gestion de jeux de données pour la vision par ordinateur.",
-    ],
-    tags: ["Python", "YOLOv8", "Vision par Ordinateur", "Deep Learning"],
-    icon: "ai",
+  duration: "September 2023 - September 2024",
+  subtitle: "AI and Data Engineering Apprentice",
+  details: [
+    "Development of YOLOv8 models for face blurring, PPE detection, and object segmentation.",
+    "Automation and optimization of processes through Python scripts.",
+    "Creation and management of datasets for computer vision tasks.",
+  ],
+  tags: ["Python", "YOLOv8", "Computer Vision", "Deep Learning"],
+  icon: "ai",
+
   },
   {
-    title: "Projet personnel",
-    duration: "Depuis Septembre 2024",
-    subtitle: "Analyse et modélisation de données",
+    title: "Personal Project",
+    duration: "Since September 2024",
+    subtitle: "Data Analysis and Modeling",
     details: [
-      "Conception de rapports interactifs avec Qlik Sense.",
-      "Extraction, transformation et analyse de données pour visualisation exploitable.",
-      "Création de tableaux de bord dynamiques et interactifs.",
+      "Design of interactive reports using Qlik Sense.",
+      "Data extraction, transformation, and analysis for actionable visualization.",
+      "Creation of dynamic and interactive dashboards.",
     ],
     tags: ["Qlik Sense", "Data Analysis", "Business Intelligence"],
     icon: "chart-bar",
+
   },
 ];
 
 export const education = [
   {
-    title: "Master Vision et Machine Intelligente",
+    title: "Master in Vision and Intelligent Machines",
     duration: "2022 - 2024",
     subtitle: "Université Paris Cité, Paris",
     details: [],
     tags: [
-      "Apprentissage Machine",
-      "Vision par Ordinateur",
-      "Analyse d'Images",
+      "Machine Learning",
+      "Computer Vision",
+      "Image Analysis",
       "Big Data",
       "Data Science",
     ],
     icon: "graduation-cap",
+
   },
   {
-    title: "Licence Informatique",
+    title: "Bachelor's in Computer Science",
     duration: "2021 - 2022",
-    subtitle: "Université Pau et des pays de l'Adour",
+    subtitle: "Université Pau et des Pays de l'Adour",
     details: [],
-    tags: ["Programmation", "Bases de Données", "Algorithmique"],
+    tags: ["Programming", "Databases", "Algorithms"],
     icon: "book",
+
   },
 ];
 

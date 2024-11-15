@@ -10,11 +10,42 @@
 	font-style: normal;
 }
 .styled-list {
-	list-style: none; /* Supprime les puces par défaut */
+	list-style: none;  
 	padding: 0;
-	margin: 0;
+	margin: 20;
  }
- 
+ /*Passion button*/
+ .heart-button {
+    display: inline-block;
+    padding: 30px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #ff6f61; 
+    border: none;
+    border-radius: 50px;  
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.heart-button::before {
+    content: "\2764"; /* Unicode for heart */
+    font-size: 20px;
+    position: absolute;
+    left: 10px; /* Adjust position relative to the button */
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px; /* Space between the heart and the text */
+    color: white;
+}
+
+.heart-button:hover {
+    background-color: #e05d50; /* Slightly darker red */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
  /* Définition des variables de couleurs par défaut (mode clair) */
 :root {
 	--background-color: #f9f9f9;
