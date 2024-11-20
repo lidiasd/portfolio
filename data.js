@@ -104,7 +104,7 @@ export const projects = {
       projectName: "Fancy Fencing Game",
       image: "images/exp.png",
       summary:
-        "Developed a terminal-based fencing game for two players. The project involves simulating the combat sport of fencing, where players aim to touch opponents with a bladed weapon on authorized areas before being touched. Implemented entirely in Python.",
+        "Developed a terminal-based fencing game for two players. ","The project involves simulating the combat sport of fencing, where players aim to touch opponents with a bladed weapon on authorized areas before being touched. Implemented entirely in Python.",
       preview: "https://github.com/lidiasd/Projet-Fancy-Fencing",
       techStack: ["Python"],
     },    
