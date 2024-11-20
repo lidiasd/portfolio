@@ -96,7 +96,7 @@ export const projects = {
       image: "images/vdm.png",
       summary:
         "Led a crucial project during my bachelor's degree focused on formal development for fighter aircraft landing. Utilized formal methods such as the B method and VDM++ specification language to ensure the correctness and safety of the embedded software.",
-      preview: "https://github.com/your-repo-link",   
+      preview: " ",   
       techStack: ["B Method", "VDM++", "Formal Methods", "Safety-Critical Systems"],
 
     },
@@ -104,7 +104,7 @@ export const projects = {
       projectName: "Fancy Fencing Game",
       image: "images/exp.png",
       summary:
-        "Developed a terminal-based fencing game for two players. ","The project involves simulating the combat sport of fencing, where players aim to touch opponents with a bladed weapon on authorized areas before being touched. Implemented entirely in Python.",
+        "Developed a terminal-based fencing game for two players. The project involves simulating the combat sport of fencing, where players aim to touch opponents with a bladed weapon on authorized areas before being touched. Implemented entirely in Python.",
       preview: "https://github.com/lidiasd/Projet-Fancy-Fencing",
       techStack: ["Python"],
     },    
