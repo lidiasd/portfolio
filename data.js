@@ -73,15 +73,7 @@ export const projects = {
       techStack: ["Random Forest", "XGBoost", "KNN", "CNN", "Python"],
 
     },
-    {
-      projectName: "Modeling Spatial Relationships between Objects",
-      image: "images/mrsp.png",
-      summary:
-        "Research on modeling spatial relationships between objects using K-Means, Random Forest, CNN, and KNN for advanced computer vision applications.",
-      preview: " ", 
-      techStack: ["K-Means", "Random Forest", "CNN", "KNN", "Machine Learning"],
-
-    },
+    
     {
       projectName: "Human-Machine Interaction Project",
       image: "images/emdt.jpeg",
@@ -121,12 +113,15 @@ export const projects = {
     
   ],
    CVP: [{
-    projectName: "YOLOv8 for Computer Vision",
-    image: "images/uyolov8.jpeg",
-    summary:
-      "Development of models for face blurring, PPE detection, and object segmentation.",
-    preview: "https://github.com/ultralytics/yolov8",
-    techStack: ["YOLOv8", "Python", "Deep Learning"],
+    
+      projectName: "Modeling Spatial Relationships between Objects",
+      image: "images/mrsp.png",
+      summary:
+        "Research on modeling spatial relationships between objects using K-Means, Random Forest, CNN, and KNN for advanced computer vision applications.",
+      preview: " ", 
+      techStack: ["K-Means", "Random Forest", "CNN", "KNN", "Machine Learning"],
+
+
 
     },
     {
