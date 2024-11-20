@@ -60,7 +60,7 @@ export const projects = {
       image: "images/nlp.jpeg",
       summary:
         "Analyzing global opinions from tweets using natural language processing tools like TextBlob, VADER, and NLTK. Visualizations created with Matplotlib, Seaborn, and Plotly.",
-      preview: "https://github.com/your-repo-link",  
+      preview: "https://github.com/lidiasd/BigData",  
       techStack: ["TextBlob", "VADER", "NLTK", "Matplotlib", "Seaborn", "Plotly"],
       
     },
@@ -69,7 +69,7 @@ export const projects = {
       image: "images/ast.jpg",
       summary:
         "Time series analysis to detect device activation periods using classification algorithms such as Random Forest, XGBoost, KNN, and CNN.",
-      preview: "https://github.com/your-repo-link",  
+      preview: "https://github.com/lidiasd/Data-Science",  
       techStack: ["Random Forest", "XGBoost", "KNN", "CNN", "Python"],
 
     },
@@ -78,7 +78,7 @@ export const projects = {
       image: "images/mrsp.png",
       summary:
         "Research on modeling spatial relationships between objects using K-Means, Random Forest, CNN, and KNN for advanced computer vision applications.",
-      preview: "https://github.com/your-repo-link", 
+      preview: " ", 
       techStack: ["K-Means", "Random Forest", "CNN", "KNN", "Machine Learning"],
 
     },
@@ -87,7 +87,7 @@ export const projects = {
       image: "images/emdt.jpeg",
       summary:
         "Development of an emotion detection model from images using advanced machine learning techniques. Integration of ResNet for feature extraction, landmarks for facial expressions, and an MLP for emotion classification.",
-      preview: "https://github.com/your-repo-link", 
+      preview: " ", 
       techStack: ["ResNet", "Landmarks", "MLP", "Python", "Deep Learning"],
 
     },  
@@ -105,7 +105,7 @@ export const projects = {
       image: "images/exp.png",
       summary:
         "Developed a terminal-based fencing game for two players. The project involves simulating the combat sport of fencing, where players aim to touch opponents with a bladed weapon on authorized areas before being touched. Implemented entirely in Python.",
-      preview: "https://github.com/your-repo-link",
+      preview: "https://github.com/lidiasd/Projet-Fancy-Fencing",
       techStack: ["Python"],
     },    
     {
@@ -133,7 +133,7 @@ export const projects = {
       image: "images/smm.png",
       summary:
         "Medical image segmentation project using the Unet model. Data analysis from the Brats2021 dataset to improve segmentation accuracy.",
-      preview: "https://github.com/your-repo-link",   
+      preview: "https://github.com/lidiasd/Brats",   
       techStack: ["Unet", "Deep Learning", "Medical Imaging", "Python"],
 
     },
