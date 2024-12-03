@@ -145,11 +145,26 @@ export const projects = {
   },],
 };
 
-export const experience = [
-  {
-    title: "TimeLapseGo' Boulogne Billancourt",
+export const experience = [  {
+  title: "Data Engineer Apprentice,                       DATA, Cachan",
+  duration: "Since October 2024",
+  subtitle: "Database and Reporting Development",
+  details: [
+    "Design and maintenance of secure and high-performance databases.",
+    "Development of reporting tools using Qlik Sense, ETL, and Google Data Studio.",
+    "Collaboration with product and development teams to define data and reporting needs.",
+    "Optimization of SQL queries and ensuring data integrity.",
+    "Implementation of Business Intelligence (BI) solutions.",
+    "Conducting technological watch to integrate innovative technologies and best practices.",
+  ],
+  tags: ["Qlik Sense", "ETL", "Data Studio", "SQL", "Business Intelligence"],
+  icon: "database",
+},
+
+{
+  title: "AI and Computer Vision Engineer Apprentice, TimeLapseGo, Boulogne-Billancourt",
   duration: "September 2023 - September 2024",
-  subtitle: "AI and Data Engineering Apprentice",
+  subtitle: "AI and Computer Vision Development",
   details: [
     "Development of YOLOv8 models for face blurring, PPE detection, and object segmentation.",
     "Automation and optimization of processes through Python scripts.",
@@ -157,24 +172,25 @@ export const experience = [
   ],
   tags: ["Python", "YOLOv8", "Computer Vision", "Deep Learning"],
   icon: "ai",
-
-  },
-  {
-    title: "Personal Project",
-    duration: "Since September 2024",
-    subtitle: "Data Analysis and Modeling",
-    details: [
-      "Design of interactive reports using Qlik Sense.",
-      "Data extraction, transformation, and analysis for actionable visualization.",
-      "Creation of dynamic and interactive dashboards.",
-    ],
-    tags: ["Qlik Sense", "Data Analysis", "Business Intelligence"],
-    icon: "chart-bar",
-
-  },
+}
 ];
 
 export const education = [
+  {
+    title: "Master in Software Systems",
+    duration: "Since September 2024",
+    subtitle: "Université Paris-Est Créteil, Créteil",
+    details: [],
+    tags: [
+      "Software Development",
+      "System Design",
+      "Programming Languages",
+      "Software Architecture",
+      "Agile Methods",
+    ],
+    icon: "graduation-cap",
+  }
+  ,
   {
     title: "Master in Vision and Intelligent Machines",
     duration: "2022 - 2024",
