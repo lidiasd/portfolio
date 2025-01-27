@@ -172,7 +172,19 @@ export const experience = [  {
   ],
   tags: ["Python", "YOLOv8", "Computer Vision", "Deep Learning"],
   icon: "ai",
+},
+{
+  "title": "Internship: Creation of a Website for a Driving School in Algeria",
+  "duration": "March 2021 - September 2021",
+  "subtitle": " ",
+  "details": [
+    "Objectives: Client management, online registration, and process automation.",
+    "Skills developed: Web development (front-end and back-end), database management, and UX/UI design."
+  ],
+  "tags": ["javascript", "css", "html", "php", "mysql", "jquery", "bootstrap"],
+  "icon": "ai"
 }
+
 ];
 
 export const education = [
