@@ -73,6 +73,15 @@ export const projects = {
       techStack: ["Random Forest", "XGBoost", "KNN", "CNN", "Python"],
 
     },
+    {
+      projectName: "Table segmentation in images and text line detection",
+      image: "images/i1.jpg",
+      summary:
+        "During my studies, I led an innovative project focused on table segmentation in images and text line detection. The main objective was to automate the recognition and extraction of information from complex images.",
+      preview: " ",  
+      techStack: [ "C++", "Python"],
+
+    },
     
     {
       projectName: "Human-Machine Interaction Project",
