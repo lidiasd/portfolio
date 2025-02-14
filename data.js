@@ -6,6 +6,24 @@ export const bio = [
 
 export const skills = [
   {
+    title: "Databases",
+    skillName: "MongoDB, SQL, PostgreSQL, MySQL, NoSQL",
+    color: "7",
+    percentage: "90",
+  },
+  {
+    title: "Tools",
+    skillName: "Qlik Sense, PowerBI, Talend Open Studio",
+    color: "3",
+    percentage: "75",
+  },
+  {
+    title: "Tools",
+    skillName: "Microsoft Azure, AWS, Google Cloud Platform",
+    color: "6",
+    percentage: "75",
+  },
+  {
     title: "Languages",
     skillName: "Python, C++, Java",
     color: "1",
@@ -23,24 +41,8 @@ export const skills = [
     color: "4",
     percentage: "80",
   },
-  {
-    title: "Databases",
-    skillName: "MongoDB, SQL, PostgreSQL, MySQL, NoSQL",
-    color: "7",
-    percentage: "90",
-  },
-  {
-    title: "Tools",
-    skillName: "Qlik Sense, PowerBI, Talend Open Studio",
-    color: "3",
-    percentage: "75",
-  },
-  //   {
-  //     title: "Analytics",
-  //     skillName: "CleverTap, Countly",
-  //     color: "5",
-  //     percentage: "50",
-  //   },
+ 
+   
   //   {
   //     title: "IDE",
   //     skillName: "VS Code",
