@@ -19,7 +19,7 @@ export const skills = [
   },
   {
     title: "Tools",
-    skillName: "Microsoft Azure, AWS, Google Cloud Platform, Git",
+    skillName: "Microsoft Azure, AWS, Google Cloud Platform",
     color: "6",
     percentage: "75",
   },
