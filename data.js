@@ -199,7 +199,7 @@ export const experience = [  {
 ];
 
 export const education = [
-  
+ 
   {
     title: "Master in Vision and Intelligent Machines",
     duration: "2022 - 2024",
