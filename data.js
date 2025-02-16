@@ -199,21 +199,7 @@ export const experience = [  {
 ];
 
 export const education = [
-  {
-    title: "Master in Software Systems",
-    duration: "Since September 2024",
-    subtitle: "Université Paris-Est Créteil, Créteil",
-    details: [],
-    tags: [
-      "Software Development",
-      "System Design",
-      "Programming Languages",
-      "Software Architecture",
-      "Agile Methods",
-    ],
-    icon: "graduation-cap",
-  }
-  ,
+  
   {
     title: "Master in Vision and Intelligent Machines",
     duration: "2022 - 2024",
