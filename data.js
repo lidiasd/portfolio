@@ -25,7 +25,7 @@ export const skills = [
   },
   {
     title: "Languages",
-    skillName: "Python, C++, Java",
+    skillName: "Python, C++, Java, R",
     color: "1",
     percentage: "90",
   },
