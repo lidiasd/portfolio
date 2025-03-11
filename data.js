@@ -67,6 +67,15 @@ export const projects = {
       
     },
     {
+      projectName: "Named Entity Analysis and Adjective Extraction",
+      image: "images/NER.png",
+      summary:
+        "Development of an NLP Model Based on BERT to Extract Named Entities and Associate Each Adjective with Its Corresponding Noun in Restaurant Reviews, in Order to Analyze the Qualitative Aspects of Establishments.",
+      preview: "https://",  
+      techStack: ["Bert", "NLP", "Python"],
+
+    },
+    {
       projectName: "Electricity Time Series Classification",
       image: "images/ast.jpg",
       summary:
