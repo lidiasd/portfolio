@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: portfolio-service
+spec:
+  selector:
+    app: portfolio  # Doit matcher le label du déploiement
+  ports:
+    - protocol: TCP
+      port: 80      # Port externe
+      targetPort: 80 # Port du conteneur
+  type: LoadBalancer  # Pour un accès externe (ex: http://localhost)
